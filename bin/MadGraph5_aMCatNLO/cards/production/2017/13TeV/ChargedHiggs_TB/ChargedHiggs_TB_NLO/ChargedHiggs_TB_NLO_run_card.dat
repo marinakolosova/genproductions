@@ -21,8 +21,6 @@ average = event_norm ! Normalize events to sum or average to the X sect.
  'lhapdf'    = pdlabel   ! PDF set
 $DEFAULT_PDF_SETS = lhaid     ! if pdlabel=lhapdf, this is the lhapdf number
 $DEFAULT_PDF_MEMBERS = reweight_PDF     ! reweight to get PDF uncertainty
-      ! First of the error PDF sets 
-      ! Last of the error PDF sets
   PYTHIA8   = parton_shower
  F        = fixed_ren_scale  ! if .true. use fixed ren scale
  F        = fixed_fac_scale  ! if .true. use fixed fac scale
